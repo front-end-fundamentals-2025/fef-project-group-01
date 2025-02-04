@@ -1,0 +1,77 @@
+/* HEADER */
+
+nav {
+  display: grid;
+  place-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  place-items: center;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* MAIN */
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.category-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3%;
+}
+
+/* mail form styling */
+.mail-form {
+  border-radius: 3px;
+  background-color: lightgrey;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+}
+
+input[type="text"] {
+  background-color: white;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 500ms ease;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+/* FOOTER */
+
+footer {
+  display: grid;
+  place-items: center;
+}

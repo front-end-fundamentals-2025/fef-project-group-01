@@ -1,0 +1,38 @@
+/* HEADER */
+
+nav {
+  display: grid;
+  place-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  place-items: center;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* MAIN */
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+/* FOOTER */
+
+footer {
+  display: grid;
+  place-items: center;
+}
+
+section {
+  display: grid;
+  place-items: center;
+}
