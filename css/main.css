@@ -1,8 +1,21 @@
 /* HEADER */
 
+#logo {
+  font-family: "Raleway", serif;
+  font-size: 3rem;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 0;
+}
+
 nav {
   display: grid;
   place-items: center;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 ul {
   display: flex;
@@ -15,6 +28,7 @@ li {
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -24,6 +38,8 @@ main {
   display: grid;
   place-items: center;
 }
+
+/* images */
 
 img {
   width: 100%;
@@ -37,6 +53,7 @@ img {
 }
 
 /* mail form styling */
+
 .mail-form {
   border-radius: 3px;
   background-color: lightgrey;
@@ -45,6 +62,13 @@ img {
   display: inline-block;
   width: 300px;
   height: 150px;
+}
+
+.form-header {
+  font-family: "Anton", serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: normal;
 }
 
 input[type="text"] {
@@ -67,6 +91,29 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: white;
   color: black;
+}
+
+/* text styling*/
+
+h1 {
+  font-family: "Anton", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Anton", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* FOOTER */
