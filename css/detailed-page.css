@@ -1,0 +1,20 @@
+/* STARS */
+.checked{
+  color:rgb(127, 141, 163);
+}
+
+/* BUTTON */
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: gray;
+}
+

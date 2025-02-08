@@ -1,3 +1,4 @@
+/* ALL PRODUCTS PAGE */
 .women-products-img{
   width: 100%;
   display: grid;
@@ -6,3 +7,4 @@
   column-gap: 2%;
   row-gap: 2%;
 }
+
