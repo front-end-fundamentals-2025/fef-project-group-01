@@ -1,0 +1,8 @@
+.women-products-img{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 2%;
+  row-gap: 2%;
+}
