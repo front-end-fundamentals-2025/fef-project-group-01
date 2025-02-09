@@ -1,5 +1,5 @@
 /* ALL PRODUCTS PAGE */
-.women-products-img{
+.women-products-img {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -8,3 +8,9 @@
   row-gap: 2%;
 }
 
+figcaption {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
