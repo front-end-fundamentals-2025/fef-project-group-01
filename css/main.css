@@ -49,48 +49,64 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 3%;
+  gap: 1rem;
 }
 
 /* mail form styling */
 
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.about-us {
+  text-align: left;
+  flex: 1;
+  max-width: 50%;
+}
+
 .mail-form {
-  border-radius: 3px;
-  background-color: lightgrey;
-  padding: 15px;
-  text-align: center;
+  border-radius: 4px;
+  background-color: #7d7468;
+  color: white;
+  padding: 1rem;
+  text-align: start;
   display: inline-block;
-  width: 300px;
-  height: 150px;
+  width: 45%;
+  height: 60%;
 }
 
 .form-header {
   font-family: "Anton", serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 300;
   font-style: normal;
 }
 
 input[type="text"] {
   background-color: white;
-  padding: 5px 15px;
+  padding: 8px 50px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 5px;
   box-sizing: border-box;
+  padding-left: 10px;
 }
 
 input[type="submit"] {
-  background-color: black;
-  color: white;
-  padding: 5px 10px;
+  background-color: #ded5ca;
+  color: black;
+  padding: 9px 10px;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   transition: background-color 500ms ease;
 }
 
 input[type="submit"]:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /* text styling*/

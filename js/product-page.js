@@ -13,5 +13,5 @@ cartButtonElement.addEventListener("click", function () {
   cart.push(item);
 
   localStorage.setItem("cart", JSON.stringify(cart)); //update localStorage
-  alert("Item added to bag!"); //alert that product has successfully been added
+  alert("Item was added to cart!"); //alert that product has successfully been added
 });
