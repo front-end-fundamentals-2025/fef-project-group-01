@@ -139,7 +139,8 @@ h6 {
   font-style: normal;
 }
 
-p {
+p,
+button {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -151,6 +152,5 @@ p {
 footer {
   display: grid;
   place-items: center;
-  border-top: 2px solid black;
   margin-top: 10%;
 }
