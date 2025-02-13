@@ -1,6 +1,6 @@
 /* STARS */
-.checked{
-  color:rgb(127, 141, 163);
+.checked {
+  color: rgb(127, 141, 163);
 }
 
 /* BUTTON */
@@ -17,4 +17,3 @@ button {
 button:hover {
   background-color: gray;
 }
-
