@@ -1,5 +1,6 @@
 const cartButtonElement = document.querySelector(".add-to-cart");
 
+// code written with knowledge from lectures and with inspiration from youtube; https://www.youtube.com/watch?v=bCTd1eRX7Iw, https://www.youtube.com/watch?v=pRkHOD_nkH4
 cartButtonElement.addEventListener("click", function () {
   //store item details as an object
   let item = {
