@@ -98,7 +98,6 @@ figcaption {
 footer {
   display: grid;
   place-items: center;
-  margin-top: 10%;
 }
 
 section {
