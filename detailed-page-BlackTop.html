@@ -24,6 +24,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
+
   <body>
     <header>
       <p id="logo">PRYME</p>
@@ -36,38 +37,37 @@
         </ul>
       </nav>
     </header>
-    <main class="product">
-      <figure class="detailed-img">
-        <figure>
+ <main class="product">
+  <section class="detailed-img">
           <img class="item-img" src="images/black-top.jpg" alt="Black Top1" />
-        </figure>
-        <figure>
-          <img src="images/black-top-2.jpg" alt="Black Top2" />
-        </figure>
-        <figure>
-          <img src="images/black-top-3.jpg" alt="Black Top3" />
-        </figure>
-      </figure>
-      <h2 class="item-name">Minimal Black Top</h2>
+          <img class= "item-2" src="images/black-top-2.jpg" alt="Black Top2" />
+          <img class="item-3" src="images/black-top-3.jpg" alt="Black Top3" />
+  </section>
+  <section class="name">
+     <h2 class="item-name">Minimal Black Top</h2>
+        <!-- star icon template from https://www.w3schools.com/howto/howto_css_star_rating.asp-->
+       <span class="stars">
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star checked"></span>
+       </span>
       <p>Light Support</p>
       <h4 class="item-price">550 SEK</h4>
-
-      <!-- star icon template from https://www.w3schools.com/howto/howto_css_star_rating.asp-->
-
-      <span class="fa fa-star"></span>
-      <span class="fa fa-star"></span>
-      <span class="fa fa-star"></span>
-      <span class="fa fa-star"></span>
-      <span class="fa fa-star checked"></span>
-
+    <section class="select">
       <p>Select a color</p>
       <p>Select a size</p>
       <p>Size Guide</p>
+    </section>
+  </section>
+  <section class="add">
       <button class="add-to-cart">ADD TO CART</button>
       <h6>Standart Delivery (3-5 Working Days)</h6>
       <h2>DESCRIPTION</h2>
       <h2>DELIVERY & RETURNS</h2>
-    </main>
+  </section>
+ </main>
     <footer>
       <p>©️ PRYME 2025</p>
     </footer>

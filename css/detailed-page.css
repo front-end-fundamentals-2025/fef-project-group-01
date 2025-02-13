@@ -18,3 +18,83 @@ button:hover {
   background-color: gray;
 }
 
+/* IMAGES GRID */
+.detailed-img {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0.3rem;
+  width: 50rem;
+}
+
+.detailed-img img:first-child {
+  grid-row: span 2; /* Makes the first image take up two rows */
+}
+
+/* SELECT A COLOR, SIZE GUIDE GRID, ANIMATION */
+.select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;     
+  gap: 1.5rem;         
+  margin-top: 2rem;
+  justify-content: flex-start; 
+  text-decoration: underline;
+  transition: color 0.5s;
+  animation: ease;
+}
+
+.select p {
+  text-decoration: underline;
+transition: color 0.5s;}
+
+.select p:hover{
+  color:rgb(174, 174, 174);
+}
+
+/* ADD BUTTON AND UNDERLINED H2 */
+.add{
+  display: flex;
+  flex-direction: column;
+  grid-area: add;
+  margin-bottom: 16rem;
+}
+.add h2 {
+  text-decoration: underline;
+}
+
+/* NAME OF THE TOP AND TEXT UNDER*/
+.name{
+  display: flex;
+  flex-direction: column;
+  grid-area: description;
+  margin-bottom: 20%;
+  margin-top: 0%;
+}
+
+.item-name{
+  margin: 0;
+}
+
+.item-price {
+  margin: 0;
+}
+
+/* MAIN GRID */
+.product{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 50px 100px 100px;
+  gap: 0px 0px;
+  grid-template-areas: " photo description"
+  " . stars"
+  " . select"
+  ". add";
+}
+
+/* FOOTER */
+footer{
+  margin: 0%;
+}
+
+
