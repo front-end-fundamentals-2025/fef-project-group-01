@@ -14,3 +14,40 @@ figcaption {
   font-weight: 400;
   font-style: normal;
 }
+
+/* ANIMATION */
+.women-products-img figure {
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.women-products-img figure img,
+.women-products-img figure figcaption {
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.women-products-img figure:hover {
+  transform: scale(1.1);
+}
+
+.women-products-img figure:hover figcaption {
+  color: #686868; 
+}
+
+
+/* RESPONSIVE DESIGN*/
+@media (max-width: 768px) {
+  .women-products-img {
+    grid-template-columns: repeat(2, 1fr); 
+    row-gap: 3%;
+  }
+
+  .women-products-img figure {
+    width: 100%;
+  }
+
+  .women-products-img figure img {
+    width: 90%; 
+  }
+}
+

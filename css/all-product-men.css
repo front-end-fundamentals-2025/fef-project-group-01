@@ -1,0 +1,54 @@
+/* ALL PRODUCTS PAGE */
+.men-products-img {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+figcaption {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ANIMATION */
+.men-products-img figure {
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.men-products-img figure img,
+.men-products-img figure figcaption {
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.men-products-img figure:hover {
+  transform: scale(1.1);
+}
+
+.men-products-img figure:hover figcaption {
+  color: #686868; 
+}
+
+/* RESPONSIVE DESIGN*/
+@media (max-width: 768px) {
+  .men-products-img {
+    grid-template-columns: repeat(2, 1fr); 
+    row-gap: 3%;
+  }
+
+  .men-products-img figure {
+    width: 100%;
+  }
+
+  .men-products-img figure img {
+    width: 90%; 
+  }
+}
+
+
+

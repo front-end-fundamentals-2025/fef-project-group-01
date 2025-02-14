@@ -28,7 +28,7 @@ button:hover {
 }
 
 .detailed-img img:first-child {
-  grid-row: span 2; /* Makes the first image take up two rows */
+  grid-row: span 2; 
 }
 
 /* SELECT A COLOR, SIZE GUIDE GRID, ANIMATION */
@@ -97,4 +97,55 @@ footer{
   margin: 0%;
 }
 
+/* ANIMATION */
+.detailed-img img {
+  transition: transform 0.5s ease-out;
+}
 
+.detailed-img img:hover {
+  transform: scale(1.05);
+}
+
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .product {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "photo"
+      "description"
+      "stars"
+      "select"
+      "add";
+  }
+
+  .detailed-img {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    justify-content: center;
+  }
+
+  .detailed-img img {
+    width: 90%; 
+    height: auto;
+  }
+
+  .name{
+    align-items: center;
+    margin-top: 80%;
+  }
+
+  .select {
+    align-items: center;
+    margin-top: 0%;
+  }
+
+  .add {
+    margin-top: 26%; 
+    align-items: center;
+  }
+  
+  button {
+    width: 100%; 
+  }
+}
