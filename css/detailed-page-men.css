@@ -19,7 +19,7 @@ button:hover {
 }
 
 /* IMAGES GRID */
-.detailed-img {
+.detailed-img-men {
   display: grid;
   grid-template-columns: 2fr 1fr; 
   grid-template-rows: 1fr 1fr; 
@@ -27,61 +27,51 @@ button:hover {
   width: 50rem;
 }
 
-.detailed-img img:first-child {
+.detailed-img-men img:first-child {
   grid-row: span 2; 
 }
 
-/* SELECT A COLOR, SIZE GUIDE GRID, ANIMATION */
-.select {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;     
-  gap: 1.5rem;         
-  margin-top: 2rem;
-  justify-content: flex-start; 
+/* SELECT A COLOR ANIMATION */
+
+ p {
   text-decoration: underline;
   transition: color 0.5s;
-  animation: ease;
-}
+ }
 
-.select p {
-  text-decoration: underline;
-transition: color 0.5s;}
-
-.select p:hover{
+ p:hover{
   color:rgb(174, 174, 174);
-}
+ }
 
 /* ADD BUTTON AND UNDERLINED H2 */
-.add{
+.add-men{
   display: flex;
   flex-direction: column;
   grid-area: add;
-  margin-bottom: 16rem;
+  margin-bottom: 45rem;
 }
-.add h2 {
+.add-men h2 {
   text-decoration: underline;
 }
 
-/* NAME OF THE TOP AND TEXT UNDER*/
-.name{
+/* NAME ON THE TOP AND TEXT UNDER*/
+.name-men{
   display: flex;
   flex-direction: column;
   grid-area: description;
-  margin-bottom: 10rem;
-  margin-top: 0;
+  margin-bottom: 50%;
+  margin-top: 0%;
 }
 
-.item-name{
-  margin: 0;
+.item-name-men{
+  margin: 0%;
 }
 
-.item-price {
-  margin: 0;
+.item-price-men {
+  margin: 0%;
 }
 
 /* MAIN GRID */
-.product{
+.product-men{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 50px 100px 100px;
@@ -94,22 +84,22 @@ transition: color 0.5s;}
 
 /* FOOTER */
 footer{
-  margin: 0;
+  margin: 0%;
 }
 
 /* ANIMATION */
-.detailed-img img {
+.detailed-img-men img {
   transition: transform 0.5s ease-out;
 }
 
-.detailed-img img:hover {
+.detailed-img-men img:hover {
   transform: scale(1.05);
 }
 
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
-  .product {
+  .product-men {
     grid-template-columns: 1fr;
     grid-template-areas: 
       "photo"
@@ -119,29 +109,29 @@ footer{
       "add";
   }
 
-  .detailed-img {
+  .detailed-img-men {
     grid-template-columns: 1fr; 
     grid-template-rows: auto;
     justify-content: center;
   }
 
-  .detailed-img img {
+  .detailed-img-men img {
     width: 90%; 
     height: auto;
   }
 
-  .name{
+  .name-men{
     align-items: center;
     margin-top: 40rem;
   }
 
-  .select {
+  .select-men {
     align-items: center;
     margin-top: 0;
   }
 
-  .add {
-    margin-top: 15rem; 
+  .add-men {
+    margin-top: 5rem; 
     align-items: center;
   }
   
