@@ -6,7 +6,7 @@ cartButtonElement.addEventListener("click", function () {
   let item = {
     name: document.querySelector(".item-name").innerText,
     price: document.querySelector(".item-price").innerText,
-    image: "images/black-top.jpg",
+    image: document.querySelector(".item-img").getAttribute("src"),
   };
 
   //retrieve items from localStorage and add new item

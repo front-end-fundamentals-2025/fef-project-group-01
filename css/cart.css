@@ -47,19 +47,12 @@ main {
 #cart-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
 }
 
-#cart-container {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-}
-
-img {
-  width: 100%;
+#cart-container img {
+  width: 50%;
 }
 
 button {
