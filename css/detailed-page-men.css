@@ -1,3 +1,7 @@
+#logo{
+ text-decoration: none;
+}
+
 /* STARS */
 .checked{
   color:rgb(127, 141, 163);
@@ -47,7 +51,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   grid-area: add;
-  margin-bottom: 45rem;
+  margin-bottom: 43rem;
 }
 .add-men h2 {
   text-decoration: underline;
@@ -58,24 +62,15 @@ button:hover {
   display: flex;
   flex-direction: column;
   grid-area: description;
-  margin-bottom: 50%;
-  margin-top: 0%;
-}
-
-.item-name-men{
-  margin: 0%;
-}
-
-.item-price-men {
-  margin: 0%;
+  margin-bottom: 27rem;
 }
 
 /* MAIN GRID */
 .product-men{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 50px 100px 100px;
-  gap: 0px 0px;
+  gap: 1rem;
   grid-template-areas: " photo description"
   " . stars"
   " . select"
@@ -84,7 +79,7 @@ button:hover {
 
 /* FOOTER */
 footer{
-  margin: 0%;
+  margin: 0;
 }
 
 /* ANIMATION */
@@ -131,11 +126,18 @@ footer{
   }
 
   .add-men {
-    margin-top: 5rem; 
+    margin-top: 1rem; 
     align-items: center;
+    margin-bottom: 0;
   }
   
   button {
     width: 100%; 
   }
+
+  footer{
+    margin: 0;
+
+  }
 }
+
