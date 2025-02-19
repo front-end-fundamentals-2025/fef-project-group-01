@@ -10,7 +10,11 @@
   margin-left: 20px;
   display: grid;
   place-items: center;
+  opacity: 1;
+  transform: translateY(0);
+  animation: fade-in 3s ease;
 }
+
 
 nav {
   display: grid;
@@ -20,14 +24,20 @@ nav {
   font-weight: 600;
   font-style: normal;
 }
+
 ul {
   display: flex;
   list-style: none;
   place-items: center;
-}
+  }
 
 li {
   margin-right: 2rem;
+  transition: transform 5s ease-in-out;
+}
+
+li:hover {
+  animation: hoverEffect 0.9s forwards;
 }
 
 a {
@@ -156,4 +166,21 @@ footer {
   place-items: center;
   border-top: 2px solid black;
   margin-top: 10%;
+}
+
+/* ANIMATION */
+@keyframes fade-in { 
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes hoverEffect {
+  0% {
+    transform: translateY(o);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
 }
