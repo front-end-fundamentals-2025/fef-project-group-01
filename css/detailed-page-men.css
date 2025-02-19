@@ -1,10 +1,6 @@
-#logo{
- text-decoration: none;
-}
-
 /* STARS */
-.checked{
-  color:rgb(127, 141, 163);
+.checked {
+  color: rgb(127, 141, 163);
 }
 
 /* BUTTON */
@@ -25,29 +21,29 @@ button:hover {
 /* IMAGES GRID */
 .detailed-img-men {
   display: grid;
-  grid-template-columns: 2fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 0.3rem;
   width: 50rem;
 }
 
 .detailed-img-men img:first-child {
-  grid-row: span 2; 
+  grid-row: span 2;
 }
 
 /* SELECT A COLOR ANIMATION */
 
- p {
+.select {
   text-decoration: underline;
   transition: color 0.5s;
- }
+}
 
- p:hover{
-  color:rgb(174, 174, 174);
- }
+.select:hover {
+  color: rgb(174, 174, 174);
+}
 
 /* ADD BUTTON AND UNDERLINED H2 */
-.add-men{
+.add-men {
   display: flex;
   flex-direction: column;
   grid-area: add;
@@ -58,7 +54,7 @@ button:hover {
 }
 
 /* NAME ON THE TOP AND TEXT UNDER*/
-.name-men{
+.name-men {
   display: flex;
   flex-direction: column;
   grid-area: description;
@@ -66,19 +62,20 @@ button:hover {
 }
 
 /* MAIN GRID */
-.product-men{
+.product-men {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 50px 100px 100px;
   gap: 1rem;
-  grid-template-areas: " photo description"
-  " . stars"
-  " . select"
-  ". add";
+  grid-template-areas:
+    " photo description"
+    " . stars"
+    " . select"
+    ". add";
 }
 
 /* FOOTER */
-footer{
+footer {
   margin: 0;
 }
 
@@ -91,12 +88,11 @@ footer{
   transform: scale(1.05);
 }
 
-
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   .product-men {
     grid-template-columns: 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "photo"
       "description"
       "stars"
@@ -105,17 +101,17 @@ footer{
   }
 
   .detailed-img-men {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-content: center;
   }
 
   .detailed-img-men img {
-    width: 90%; 
+    width: 90%;
     height: auto;
   }
 
-  .name-men{
+  .name-men {
     align-items: center;
     margin-top: 40rem;
   }
@@ -126,18 +122,16 @@ footer{
   }
 
   .add-men {
-    margin-top: 1rem; 
+    margin-top: 1rem;
     align-items: center;
     margin-bottom: 0;
   }
-  
+
   button {
-    width: 100%; 
+    width: 100%;
   }
 
-  footer{
+  footer {
     margin: 0;
-
   }
 }
-

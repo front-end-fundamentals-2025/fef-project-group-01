@@ -1,12 +1,15 @@
 /* HEADER */
 
 #logo {
-  font-family: "Raleway", serif;
+  font-family: condor, sans-serif;
+  font-weight: 800;
+  font-style: italic;
   font-size: 3rem;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  margin-top: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: grid;
+  place-items: center;
 }
 
 nav {
