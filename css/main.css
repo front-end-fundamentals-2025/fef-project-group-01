@@ -15,7 +15,6 @@
   animation: fade-in 3s ease;
 }
 
-
 nav {
   display: grid;
   place-items: center;
@@ -29,7 +28,7 @@ ul {
   display: flex;
   list-style: none;
   place-items: center;
-  }
+}
 
 li {
   margin-right: 2rem;
@@ -71,7 +70,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   padding: 3rem;
 }
 
@@ -82,14 +81,12 @@ img {
 }
 
 .mail-form {
-  border-radius: 4px;
-  background-color: #7d7468;
-  color: white;
+  border: solid black 2px;
   padding: 1rem;
-  text-align: start;
+  text-align: left;
   display: inline-block;
-  width: 45%;
-  height: 60%;
+  width: 40%;
+  height: 100%;
 }
 
 .form-header {
@@ -97,6 +94,9 @@ img {
   font-size: 2rem;
   font-weight: 300;
   font-style: normal;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 input[type="text"] {
@@ -109,8 +109,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  background-color: #ded5ca;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 9px 10px;
   border: none;
   border-radius: 5px;
@@ -118,7 +118,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: black;
+  background-color: gray;
   color: white;
 }
 
@@ -169,7 +169,7 @@ footer {
 }
 
 /* ANIMATION */
-@keyframes fade-in { 
+@keyframes fade-in {
   0% {
     opacity: 0;
     transform: translateY(10px);
