@@ -10,16 +10,24 @@
   margin-left: 20px;
   display: grid;
   place-items: center;
+  opacity: 1;
+  transform: translateY(0);
+  animation: fade-in 3s ease;
 }
 
 nav {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  margin-left: 20px;
+  list-style: none;
 }
+
 ul {
   display: flex;
   list-style: none;
@@ -28,11 +36,27 @@ ul {
 
 li {
   margin-right: 2rem;
+  transition: transform 5s ease-in-out;
+}
+
+.nav-links li:hover {
+  animation: hoverEffect 0.9s forwards;
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+/* icons */
+
+.cart-icon {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  animation: none;
 }
 
 /* MAIN */
@@ -156,4 +180,21 @@ footer {
   place-items: center;
   border-top: 2px solid black;
   margin-top: 10%;
+}
+
+/* ANIMATION */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes hoverEffect {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
 }
