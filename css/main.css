@@ -18,6 +18,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   position: relative;
   font-family: "Raleway", serif;
   font-optical-sizing: auto;

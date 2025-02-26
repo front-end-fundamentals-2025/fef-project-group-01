@@ -1,3 +1,70 @@
-.social-media-fig {
+main {
+  display: grid;
+  place-items: center;
+}
+
+/* social media links */
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
   list-style: none;
+  border: 2px solid black;
+  padding: 10px 15px;
+  gap: 10px;
+  margin-left: 30px;
+  justify-content: center;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+/* question form */
+.questions h1 {
+  text-align: center;
+}
+
+.question-form {
+  border: 2px solid black;
+  padding: 15px;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1rem;
+  color: black;
+  display: inline-block;
+  width: 100%;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 500ms ease;
+}
+
+input[type="submit"]:hover {
+  background-color: gray;
 }
