@@ -1,0 +1,30 @@
+.about-img{
+  width: 100%;
+  height: 5rem;
+ }
+
+ .about-us{
+  color: rgb(0, 0, 0);
+  display: grid;
+  text-align: center;
+  margin-top: 14rem;
+  gap: 10rem;
+  width: 50%;
+  scale: 150%;
+ }
+ 
+.about-page {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat (3, 1fr);
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.about-page p {
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+/* RESPONSIVE DESIGN */
