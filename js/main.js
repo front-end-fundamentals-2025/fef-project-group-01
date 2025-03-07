@@ -10,5 +10,5 @@ const observer = new IntersectionObserver((entries) => {
     });
   });
 
-const aboutcontainerElements = document.querySelectorAll('.aboutcontainer');
-aboutcontainerElements.forEach((el) => observer.observe(el));
+const mailcontainerElements = document.querySelectorAll('.mailcontainer');
+mailcontainerElements.forEach((el) => observer.observe(el));

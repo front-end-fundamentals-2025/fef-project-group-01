@@ -56,10 +56,11 @@ transition: color 0.5s;}
   display: flex;
   flex-direction: column;
   grid-area: add;
-  margin-bottom: 30rem;
+  margin-bottom: 40rem;
 }
 .add h2 {
   text-decoration: underline;
+  margin: 1rem;
 }
 
 /* NAME OF THE TOP AND TEXT UNDER*/
@@ -67,7 +68,7 @@ transition: color 0.5s;}
   display: flex;
   flex-direction: column;
   grid-area: description;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
   margin-top: 0;
 }
 

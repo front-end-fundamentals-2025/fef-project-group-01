@@ -1,7 +1,3 @@
-/* BACKGROUND */
-.homepage{
-  background-image: linear-gradient(#ffffff, #d4d4d4);
-}
 
 /* HEADER */
 #logo {
@@ -80,17 +76,28 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 1rem;
+  place-items: center;
 }
+
+.category-img-women, .category-img-men {
+width: 90%;
+transition: transform 0.3s ease-in-out;
+}
+
+.category-img-women:hover, .category-img-men:hover {
+  transform: scale(1.05);
+}
+
 
 /* mail form styling */
 
-.aboutcontainer {
+.mailcontainer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 3rem;
+  padding: 1rem;
   opacity: 0;
   filter:blur(5px);
   transform: translateY(-100%);
@@ -103,29 +110,24 @@ img {
   transform: translateY(0);
 }
 
-.about-us {
-  text-align: left;
-  flex: 1;
-  max-width: 50%;
-}
-
 .mail-form {
-  border: solid black 3px;
+  background-color:rgba(144, 149, 159, 0.308);
   padding: 1.5rem;
-  text-align: left;
+  text-align: center;
   display: inline-block;
-  max-width: 300px;
   height: 100%;
+  width: 100%;
+  padding-top: 0;
 }
 
 .form-header {
   font-family: "Anton", serif;
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 1.9rem;
+  font-weight: 200;
   font-style: normal;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 input[type="text"] {
@@ -225,3 +227,4 @@ footer {
     transition: none;
   }
 }
+
