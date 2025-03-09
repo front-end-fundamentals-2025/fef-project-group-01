@@ -1,3 +1,4 @@
+/* MAIN */
 /* social media links */
 .social-media {
   display: flex;
@@ -17,7 +18,7 @@
   font-size: 2rem;
 }
 
-/* question form */
+/* question form styling */
 .questions h1 {
   display: flex;
 }
@@ -67,13 +68,13 @@ input[type="submit"]:hover {
   background-color: gray;
 }
 
-/* animations */
+/* ANIMATIONS */
 
 .social-links a:hover {
   transform: scale(1.1);
 }
 
-/* responsive desing */
+/* RESPONSIVE DESIGN */
 
 @media screen and (max-widht: 768px) {
   .social-links {
